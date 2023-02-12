@@ -69,18 +69,13 @@
   }
 
   body{
-    position: absolute;
     box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
     background-color: var(--crl-neutral-900);
     width: 375px;
-    margin: 1.5rem;
     display: grid;
     place-content: center;
+    margin: auto;
     font-family: var(--ff-accent);
-    left: 50%;
-    -webkit-transform: translate(-50%);
-    transform: translate(-50%);
-    box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
   }
   .product{
     background-color: var(--crl-neutral-500);
@@ -118,6 +113,7 @@
     display: flex;
     align-items: center;
     margin-top: 20px;
+    white-space: nowrap;
   }
   .price{
     color: var(--crl-primary-200) ;
